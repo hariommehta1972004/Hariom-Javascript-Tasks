@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        function currentDateTime() {
+
+            const currentDate = new Date();
+
+            const date = currentDate.toLocaleDateString();
+            const time = currentDate.toLocaleTimeString();
+
+            console.log(`Current date is ${date}`);
+            console.log(`Current time is ${time}`);
+
+        }
+
+        currentDateTime();
+    </script>
+</body>
+
+</html>
