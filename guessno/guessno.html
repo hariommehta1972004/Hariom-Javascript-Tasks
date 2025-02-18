@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the number game</title>
+    <script src="guessjs.js"></script>
+</head>
+
+<body>
+    <div id="div1">
+        <h2>Guess the number Game</h2>
+        <p>Guess the number between 1 to 100</p>
+
+        <input type="number" id="mynum" min="1" max="100" oninput="clearResult()">
+        <button onclick="guess()">Guess</button>
+        <p id="result"></p>
+        <p id="targetnum"></p>
+        <div id="div2">
+        </div>
+
+
+
+    </div>
+</body>
+
+</html>
