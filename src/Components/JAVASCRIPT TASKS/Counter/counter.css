@@ -1,0 +1,24 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+
+#para {
+    font-size: 40px;
+    margin: 40px;
+}
+
+button {
+    padding: 20px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+button:active {
+    transform: scale(0.85);
+}
+
+button:hover {
+    transform: scale(1.25);
+}
